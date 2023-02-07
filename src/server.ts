@@ -12,6 +12,14 @@ import EnvVars from '@src/declarations/major/EnvVars';
 import HttpStatusCodes from '@src/declarations/major/HttpStatusCodes';
 import { NodeEnvs } from '@src/declarations/enums';
 import { RouteError } from '@src/declarations/classes';
+import menubar from './components/menubar.tsx';
+
+// *** Import react*** // 
+
+import React from 'react'
+import ReactDOM from 'react-dom'
+
+
 
 
 // **** Init express **** //
@@ -84,6 +92,14 @@ app.get('/users', (req: Request, res: Response) => {
 });
 
 
+// welcome
+
+const root = 
+ReactDOM.createRoot(document.getElementById('root'))
+const element = 
+
+
 // **** Export default **** //
 
 export default app;
+

@@ -17,4 +17,4 @@ const app = express();
 const publicPath = path.join(__dirname, '/src/public')
 
 app.use(express.static(publicPath));
-app.listen(5000); 
+
